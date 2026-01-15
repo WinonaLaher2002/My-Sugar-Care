@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Sugar Care</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <h1>My Sugar Care</h1>
+    <p class="subtitle">Gentle tracking, no pressure.</p>
+
+    <div class="card">
+      <label>Blood Sugar (mg/dL)</label>
+      <input type="number" id="sugar" placeholder="e.g. 117">
+
+      <label>Type</label>
+      <select id="type">
+        <option value="fasting">Fasting</option>
+        <option value="after">After Meal (2 hrs)</option>
+      </select>
+
+      <button onclick="checkSugar()">Check</button>
+
+      <p id="result"></p>
+    </div>
+
+    <div class="reminder">
+      <h3>🕒 Daily Reminder</h3>
+      <ul>
+        <li>🌅 Morning: Fasting check</li>
+        <li>🍽️ Choose ONE after-meal check</li>
+        <li>🚶 Walk 10–15 mins</li>
+        <li>💧 Drink water</li>
+      </ul>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
