@@ -1,5 +1,6 @@
 # 🌸 My Sugar Care
-![Uploading image.png…]()
+
+<img width="1600" height="739" alt="My-Sugar-Care-01-15-2026_04_54_PM" src="https://github.com/user-attachments/assets/57d62df6-5232-4963-9696-37fb27a65bdf" />
 
 **My Sugar Care** is a simple, calming web app designed to help track blood sugar levels without stress or pressure.
 
